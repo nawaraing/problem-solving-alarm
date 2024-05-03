@@ -1,7 +1,7 @@
 import json
 
 import sys
-sys.path.append(r'/Users/kangjunhyeon/python-test/MEMuV7qVBtT5Vb-24011618254387-coolsms-python/src/lib')
+sys.path.append(r'../../lib')
 
 import message
 
