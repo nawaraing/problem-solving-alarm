@@ -1,7 +1,7 @@
 import json
 
 import sys
-sys.path.append(r'../../lib')
+sys.path.append(r'/home/runner/work/problem-solving-alarm/problem-solving-alarm/src/lib')
 
 import message
 
