@@ -1,9 +1,6 @@
 import requests
 import platform
 
-import sys
-sys.path.append(r'/Users/kangjunhyeon/python-test/MEMuV7qVBtT5Vb-24011618254387-coolsms-python/src/lib')
-
 import auth
 import config
 
