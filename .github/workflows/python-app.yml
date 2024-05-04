@@ -43,4 +43,4 @@ jobs:
         cat src/lib/config.ini
     - name: Test with coolSms
       run: |
-        python src/examples/modules/sms/send_sms.py
+        python src/problem-solving-alarm/main.py
