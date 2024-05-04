@@ -37,6 +37,9 @@ jobs:
     - name: Test with hello.py
       run: |
         python src/hello.py
+    - name: Set api key and secret
+      run: |
+        echo '\n[AUTH]\napi_key = ${{secrets.COOLSMS_API_KEY}}\napi_secret = ${{COOLSMS_API_SECRET}}\n' >> config.ini
     - name: Test with coolSms
       run: |
         python src/examples/modules/sms/send_sms.py
